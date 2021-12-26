@@ -1,0 +1,28 @@
+Version control system (VCS)
+File history ledger to track the progress
+git vs github
+
+
+
+
+
+git config --global user.name "Aniket Deshmane" 
+git config --global user.email "aniketmdeshmane@gmail.com"
+
+ls -a 						//list the files
+git status 					//checks the status of dir and files 
+git add <filename> 				//will add file to staging area
+git commit -m "Adding print hello" 		//commit to local dir
+git log 					//to see the history of commits
+git add .					//will add all the files in the folder with are not in staging
+git checkout <hash/branch>			//will jump to that respective branch
+git branch					// list the number of branches inital branch is master
+git branch <branch name>			//to create new branch
+git checkout -b <branch name>			// creates and checkouts the new branch
+git merge <branch name>
+git remove -v
+
+
+git remote add <name> https://github.com/AniketDeshmane/demo.git
+git branch -M main
+git push -u <name> main				//push to remote
