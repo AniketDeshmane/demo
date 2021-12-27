@@ -26,3 +26,4 @@ git remove -v
 git remote add <name> https://github.com/AniketDeshmane/demo.git
 git branch -M main
 git push -u <name> main				//push to remote
+//adding from github
